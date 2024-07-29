@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java8_New_Feature/Java8_New_Feature.iml" filepath="$PROJECT_DIR$/Java8_New_Feature/Java8_New_Feature.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_Basic/Java_Basic.iml" filepath="$PROJECT_DIR$/Java_Basic/Java_Basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_Concurrency/Java_Concurrency.iml" filepath="$PROJECT_DIR$/Java_Concurrency/Java_Concurrency.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_Multithread/Java_Multithread.iml" filepath="$PROJECT_DIR$/Java_Multithread/Java_Multithread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/_Java.iml" filepath="$PROJECT_DIR$/.idea/_Java.iml" />
+    </modules>
+  </component>
+</project>
