@@ -132,6 +132,12 @@ git stash pop
 
 ## Maven
 
+https://www.youtube.com/watch?v=KNGQ9JBQWhQ
+
+https://www.tutorialspoint.com/maven/index.htm
+
+https://www.javatpoint.com/maven-tutorial
+
 ### What is maven role?
 Maven is a powerful build automation tool which could simplify the process of building project, managing dependency and
 configuration.
@@ -173,3 +179,48 @@ Maven plugins are components that enhance Maven's capability to manage and build
 - maven-install-plugin
 - maven-deploy-plugin
 - maven-site-plugin
+
+
+
+### pom.xml
+
+```xml
+  <parent>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-parent</artifactId>
+      <version>3.3.2</version>
+      <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+  <groupId>com.example</groupId>
+  <artifactId>springmvc-demo</artifactId>
+  <packaging>jar</packaging>  #war
+  <version>1.0-SNAPSHOT</version>
+  <name>mvc-demo</name>
+	<description>Demo project for Spring Boot</description>
+  <url>http://maven.apache.org</url>
+
+<dependencies>
+  <!--Mysql数据库驱动-->
+  <dependency>
+  <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>${mysql-connector.version}</version>
+  </dependency>
+  
+  <dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>3.8.1</version>
+    <scope>test</scope>
+  </dependency>
+  ...
+</dependencies>
+```
+
+produce jar file: **artifactId - version . packaging**
+
+`springmvc-demo-1.0-SNAPSHOT.jar`
+
+`${mysql-connector.version}` use the value confiured in `application.properties`.
+
